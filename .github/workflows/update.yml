@@ -2,7 +2,7 @@ name: Update Thai Gold
 
 on:
   schedule:
-    - cron: "0 * * * *"   # ทุก 5 นาที
+    - cron: "0 * * * *"   # ทุก 1 ชั่วโมง
   workflow_dispatch:        # กดรันเองได้
 
 permissions:
