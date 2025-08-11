@@ -1,0 +1,28 @@
+name: Update Thai Gold
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # ทุก 5 นาที
+  workflow_dispatch:        # กดรันเองได้
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install deps
+        run: npm install
+      - name: Run scraper
+        run: npm run scrape
+      - name: Commit and push updates
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add goldprice.json status.json || true
+          git diff --cached --quiet || (git commit -m "update: goldprice.json" && git push) || echo "no changes"
