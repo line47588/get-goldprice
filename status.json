@@ -1,6 +1,6 @@
 {
-  "ok": false,
-  "ts": "2025-08-16T09:13:08.806Z",
+  "ok": true,
+  "ts": "2025-08-16T10:12:18.999Z",
   "source": "https://xn--42cah7d0cxcvbbb9x.com/",
-  "message": "Upstream HTTP 403"
+  "message": "ok"
 }
