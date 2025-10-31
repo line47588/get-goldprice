@@ -1,6 +1,6 @@
 {
   "ok": false,
-  "ts": "2025-10-31T14:13:28.537Z",
+  "ts": "2025-10-31T15:12:43.075Z",
   "source": "https://xn--42cah7d0cxcvbbb9x.com/",
-  "message": "Error: fetch failed"
+  "message": "Upstream HTTP 403"
 }
