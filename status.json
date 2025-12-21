@@ -1,6 +1,6 @@
 {
-  "ok": false,
-  "ts": "2025-12-21T10:13:49.673Z",
+  "ok": true,
+  "ts": "2025-12-21T11:11:14.139Z",
   "source": "https://xn--42cah7d0cxcvbbb9x.com/",
-  "message": "Error: fetch failed"
+  "message": "ok"
 }
