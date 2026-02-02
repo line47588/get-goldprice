@@ -1,6 +1,6 @@
 {
-  "ok": false,
-  "ts": "2026-02-02T17:32:02.454Z",
+  "ok": true,
+  "ts": "2026-02-02T18:33:14.821Z",
   "source": "https://xn--42cah7d0cxcvbbb9x.com/",
-  "message": "Error: This operation was aborted"
+  "message": "ok"
 }
