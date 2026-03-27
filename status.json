@@ -1,6 +1,6 @@
 {
-  "ok": true,
-  "ts": "2026-03-27T16:44:11.521Z",
+  "ok": false,
+  "ts": "2026-03-27T17:43:07.532Z",
   "source": "https://xn--42cah7d0cxcvbbb9x.com/",
-  "message": "ok"
+  "message": "Upstream HTTP 522"
 }
