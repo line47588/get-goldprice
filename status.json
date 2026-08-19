@@ -1,6 +1,6 @@
 {
   "ok": false,
-  "ts": "2026-08-19T04:28:44.305Z",
+  "ts": "2026-08-19T05:21:11.706Z",
   "source": "https://xn--42cah7d0cxcvbbb9x.com/",
-  "message": "Upstream HTTP 403"
+  "message": "Error: This operation was aborted"
 }
